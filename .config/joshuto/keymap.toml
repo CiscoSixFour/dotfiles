@@ -1,0 +1,120 @@
+mapcommand = [
+
+## Basic / Navigation ##
+
+	{ keys = [ ":" ],			command = ":" },
+	{ keys = [ ";" ],			command = ":" },
+
+	{ keys = [ "f1" ],			command = "help" },
+	{ keys = [ " " ],			command = "select --toggle=true" },
+	{ keys = [ "t" ],			command = "select --all=true --toggle=true" },
+	{ keys = [ "r" ],			command = "reload_dirlist" },
+	{ keys = [ "h" ],			command = "toggle_hidden" },
+	{ keys = [ "Q" ],			command = "quit_to_cwd" },
+
+	{ keys = [ "arrow_up" ],	command = "cursor_move_up" },
+	{ keys = [ "arrow_down" ],	command = "cursor_move_down" },
+	{ keys = [ "arrow_left" ],	command = "cd .." },
+	{ keys = [ "arrow_right" ],	command = "open" },
+
+	{ keys = [ "end" ],			command = "cursor_move_end" },
+	{ keys = [ "home" ],		command = "cursor_move_home" },
+	{ keys = [ "page_up" ],		command = "cursor_move_page_up" },
+	{ keys = [ "page_down" ],	command = "cursor_move_page_down" },
+
+	{ keys = [ "j" ],			command = "parent_cursor_move_up" },
+	{ keys = [ "k" ],			command = "parent_cursor_move_down" },
+	
+	{ keys = [ "[" ],			command = "preview_cursor_move_up" },
+	{ keys = [ "]" ],			command = "preview_cursor_move_down" },
+ 
+	{ keys = [ "w" ],			command = "show_workers --exit-key=w" },
+	{ keys = [ "'" ],			command = ":shell " },
+
+## cd /... ( Go To... )
+
+	{ keys = [ "g", "g" ],		command = ":cd " },
+	{ keys = [ "g", "/" ],		command = "cd /" },
+	{ keys = [ "g", "e" ],		command = "cd /etc" },
+	{ keys = [ "g", "u" ],		command = "cd /usr" },
+	{ keys = [ "g", "a" ],		command = "cd /usr/share/applications" },
+	{ keys = [ "g", "h" ],		command = "cd ~" },
+	{ keys = [ "g", "b" ],		command = "cd ~/Build" },
+	{ keys = [ "g", "d" ],		command = "cd ~/Documents" },
+	{ keys = [ "g", "D" ],		command = "cd ~/Downloads" },
+	{ keys = [ "g", "m" ],		command = "cd ~/Music" },
+	{ keys = [ "g", "p" ],		command = "cd ~/Pictures" },
+	{ keys = [ "g", "s" ],		command = "cd ~/Scripts" },
+	{ keys = [ "g", "v" ],		command = "cd ~/Videos" },
+	{ keys = [ "g", "t" ],		command = "cd ~/.local/share/Trash/files" },
+
+ 	{ keys = [ "g", "C", "c" ],	command = "cd ~/.config" },
+	{ keys = [ "g", "C", "j" ],	command = "cd ~/.config/joshuto" },
+	{ keys = [ "g", "C", "k" ],	command = "cd ~/.config/kitty" },
+	{ keys = [ "g", "C", "n" ],	command = "cd ~/.config/ncmpcpp" },
+	{ keys = [ "g", "C", "z" ],	command = "cd ~/.config/zsh" },
+
+## Tabs ##
+
+	{ keys = [ "ctrl+t" ],		command = "new_tab" },
+	{ keys = [ "q" ],			command = "close_tab" },
+
+	{ keys = [ "\t" ],			command = "tab_switch 1" },
+	{ keys = [ "backtab" ],		command = "tab_switch -1" },
+
+	{ keys = [ "alt+1" ],		command = "tab_switch_index 1" },
+	{ keys = [ "alt+2" ],		command = "tab_switch_index 2" },
+	{ keys = [ "alt+3" ],		command = "tab_switch_index 3" },
+	{ keys = [ "alt+4" ],		command = "tab_switch_index 4" },
+	{ keys = [ "alt+5" ],		command = "tab_switch_index 5" },
+
+## File Functions ##
+
+	## Create ##
+	{ keys = [ "n", "d" ],		command = ":mkdir " },
+	{ keys = [ "n", "f" ],		command = ":touch " },
+	## Copy ##
+	{ keys = [ "c", "c" ],		command = "copy_files" },
+	{ keys = [ "c", "n" ],		command = "copy_filename" },
+	{ keys = [ "c", "." ],		command = "copy_filename_without_extension" },
+	{ keys = [ "c", "p" ],		command = "copy_filepath" },
+	{ keys = [ "c", "d" ],		command = "copy_dirpath" },
+	{ keys = [ "c", "x" ],		command = "cut_files" },
+	## Paste ##
+	{ keys = [ "v", "v" ],		command = "paste_files" },
+	{ keys = [ "v", "o" ],		command = "paste_files --overwrite=true" },
+	## Ctrl Shortcuts ##
+	{ keys = [ "ctrl+c" ],		command = "copy_files" },
+	{ keys = [ "ctrl+x" ],		command = "cut_files" },
+    { keys = [ "ctrl+v" ],		command = "paste_files" },
+	## Rename ##
+	{ keys = [ "f2", "f2" ],	command = ":rename " },
+	{ keys = [ "f2", "a" ],		command = "rename_append" },
+	{ keys = [ "f2", "A" ],		command = "rename_prepend" },
+	{ keys = [ "f2", "b" ],		command = "bulk_rename" },
+	## Permissions ##
+	{ keys = [ "=" ],			command = "set_mode" },
+	## Delete ##
+	{ keys = [ "delete" ],		command = "delete_files" },
+
+## Opening Files ##
+
+	{ keys = [ "\n" ],			command = "open" },
+	{ keys = [ "e" ],			command = "open_with" },
+
+## Search ##
+
+	{ keys = [ "/" ],			command = ":search " },
+	{ keys = [ "\\" ],			command = ":search_glob " },
+	{ keys = [ "." ],			command = "search_next" },
+	{ keys = [ "," ],			command = "search_prev" },
+
+## Sort ##
+
+	{ keys = [ "s", "r" ],		command = "sort reverse" },
+	{ keys = [ "s", "l" ],		command = "sort lexical" },
+	{ keys = [ "s", "m" ],		command = "sort mtime" },
+	{ keys = [ "s", "n" ],		command = "sort natural" },
+	{ keys = [ "s", "s" ],		command = "sort size" },
+	{ keys = [ "s", "e" ],		command = "sort ext" }
+]

@@ -1,0 +1,41 @@
+## NCMPCPP Keybindings Config By Cisco64 ##
+
+def_key "right"
+  enter_directory
+
+def_key "right"
+  toggle_output
+
+def_key "right"
+  run_action
+
+def_key "right"
+  play_item
+
+def_key "right"
+  slave_screen
+
+def_key "left"
+  master_screen
+
+def_key "left"
+  jump_to_parent_directory
+
+def_key "up"
+  scroll_up
+
+def_key "down"
+  scroll_down
+
+def_key "shift-up"
+  scroll_up_album
+
+def_key "shift-down"
+  scroll_down_album
+
+def_key "ctrl-up"
+  scroll_up_artist
+
+def_key "ctrl-down"
+  scroll_down_artist
+

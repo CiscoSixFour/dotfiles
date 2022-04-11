@@ -1,0 +1,190 @@
+{
+  "For &Mixed Case, after any of:": {
+    "values": [
+      "., !",
+      "., !"
+    ]
+  },
+  "&Pattern (extension not required)": {
+    "values": [
+      "folder_%img_counter%",
+      "folder_%img_counter%"
+    ]
+  },
+  "&Pattern": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "&Format string": {
+    "values": [
+      "%title%",
+      "%title%"
+    ]
+  },
+  "&Pattern (can be relative path)": {
+    "values": [
+      "lyrics.txt",
+      "%artist% - %album%",
+      "lyrics.txt"
+    ]
+  },
+  "&Filenames to check (;-separated, shell wildcards [eg. *] allowed)": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "&Default description (can be pattern):": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "&Separator": {
+    "values": [
+      ";",
+      ";"
+    ]
+  },
+  "&Field list (; separated):": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "&Replace": {
+    "values": [
+      "AKUMANDRA - ",
+      "%artist%",
+      " WEB",
+      "(Radio Edit)",
+      "(Original Mix)",
+      "(Original)",
+      "[Radio Edit]",
+      "[Radio Version]",
+      "(Radio Version)",
+      "[Original Mix]",
+      "[Original]",
+      "[DJ Edit]",
+      "(DJ Edit)",
+      "[DJ Version]",
+      "(DJ Version)",
+      "[Extended Version]",
+      "(Extended Version)",
+      "[Extended Mix]",
+      "(Extended Mix)",
+      "[Pro Mix]",
+      "(Pro Mix)",
+      "(Original Edit)",
+      "[Original Edit]",
+      "(WEB)",
+      " (WEB)",
+      "%20",
+      "feat",
+      " FREEWEB",
+      "[Original Version]",
+      "(Original Version)",
+      "feat.",
+      "/1",
+      "/2",
+      "/3",
+      "/4",
+      "/5",
+      "/6",
+      "/7",
+      "/8",
+      "/9",
+      "0",
+      "/11",
+      "/12",
+      "/13",
+      "/14",
+      "/15",
+      "/16",
+      "/17",
+      "/18",
+      "/19",
+      "/20",
+      "/01",
+      "/02",
+      "/03",
+      "/04",
+      "/05",
+      "/06",
+      "/07",
+      "/08",
+      "/09",
+      "[Radio Mix]",
+      "(Radio Mix)",
+      "-- Ft..",
+      "Ft.",
+      "(Ft..",
+      " WEB"
+    ]
+  },
+  "w&ith:": {
+    "values": [
+      "",
+      "hi",
+      "(Edit)",
+      "(Extended)",
+      "[Edit]",
+      "[Extended]",
+      " ",
+      "Ft.",
+      "(Ft.",
+      ""
+    ]
+  },
+  "&Regular Expression": {
+    "values": [
+      "%title%",
+      "",
+      ""
+    ]
+  },
+  "Replace &matches with:": {
+    "values": [
+      "",
+      "%artist% - %title%",
+      ""
+    ]
+  },
+  "&Text": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "&Output": {
+    "values": [
+      "",
+      ""
+    ]
+  },
+  "filter_text": {
+    "values": [
+      "",
+      "Radio",
+      "edit",
+      "mix",
+      "album mix",
+      "Original",
+      "DJ",
+      "Extend",
+      "Exten",
+      "Offic",
+      "official",
+      "Remix",
+      "vinyl",
+      "burn",
+      "maztek",
+      "gydra",
+      "Ft.",
+      "instru",
+      ""
+    ]
+  }
+}

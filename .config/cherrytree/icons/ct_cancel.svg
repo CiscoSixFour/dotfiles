@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg5"
+   sodipodi:docname="ct_cancel.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="44.8125"
+     inkscape:cx="7.9888424"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <style
+     type="text/css"
+     id="current-color-scheme">
+        .ColorScheme-NegativeText {
+            color:#da4453;
+        }
+    </style>
+  <path
+     class="ColorScheme-NegativeText"
+     d="M 2.6992188,2 2,2.6992188 7.3007812,8 2,13.300781 C 2,13.300781 2.7082187,13.995 2.6992188,14 L 8,8.6992188 13.300781,14 C 13.291781,13.995 14,13.300781 14,13.300781 L 8.6992188,8 14,2.6992188 13.300781,2 8,7.3007812 Z"
+     fill="currentColor"
+     id="path3"
+     style="fill:#cc241d;fill-opacity:1" />
+</svg>

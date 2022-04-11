@@ -1,0 +1,34 @@
+	## General Functions ##
+
+C+S+h	= This Help Menu
+F1	= Program Specific Help
+F2	= Rename Selection
+
+	## S6 Commands ##
+
+s6-db-reload
+s6-rc
+s6-rc-db
+s6-svc
+s6-svstat
+
+			## Fluxbox ##
+
+## Focus Window ##		##  On Desktop ##
+Ctrl+Q 		= Close		Left Click	= Hide Menus
+Control+Shift+B = Toggle Decor	Right Click	= Root Menu
+Super+F5 	= Kill		Middle Mouse	= Workspace Menu
+Super+F6 	= Minimize	
+Super+F7 	= Maximize
+Super+F11 	= Fullscreen
+
+## Window Tiling ##		## Launch ##
+Super+Z = Bottom Left		Super+Enter = Terminal
+Super+X = Bottom		Super+Space = App Launcher
+Super+C = Bottom Right		Super+F = PCManFM
+Super+A = Left
+Super+S = Center
+Super+D = Right
+Super+Q = Top Left
+Super+W = Top
+Super+E = Top Right

@@ -1,0 +1,12 @@
+## Bat Config By Cisco64 ##
+
+## Set Basic Theme ##
+--theme="base16"
+
+## Show line numbers, Git modifications and file header (but no grid) ##
+--style="numbers,changes,header"
+
+--italic-text=always
+
+--paging=always
+

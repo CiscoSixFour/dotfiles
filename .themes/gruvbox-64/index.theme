@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=gruvbox-64
+Comment=Gruvbox dark theme with sharp contrast lines by Cisco64.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Gruvbox-Dark-Sharp
+GtkTheme=Gruvbox-Dark-Sharp
+IconTheme=Gruvbox-Dark-Sharp
+MetacityTheme=Gruvbox-Dark-Sharp

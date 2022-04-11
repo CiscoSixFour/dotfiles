@@ -1,0 +1,171 @@
+{
+  "puddlestuff.functions_autonumbering": {
+    "arguments": [
+      1,
+      true,
+      1
+    ],
+    "fields": [
+      "track"
+    ]
+  },
+  "puddlestuff.functions_titleCase": {
+    "arguments": [
+      "UPPER CASE",
+      "., !"
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_enconvert": {
+    "arguments": [
+      "cp1250"
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_save_artwork": {
+    "arguments": [
+      "folder_%img_counter%"
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_filenametotag": {
+    "arguments": [
+      ""
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_formatValue": {
+    "arguments": [
+      "%title%"
+    ],
+    "fields": [
+      "album"
+    ]
+  },
+  "puddlestuff.functions_import_text": {
+    "arguments": [
+      "lyrics.txt"
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_load_images": {
+    "arguments": [
+      "",
+      "",
+      false
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_merge_values": {
+    "arguments": [
+      ";"
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_remove_fields": {
+    "arguments": [],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_remove_except": {
+    "arguments": [
+      ""
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_remove_dupes": {
+    "arguments": [
+      false
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_replace": {
+    "arguments": [
+      " WEB",
+      "",
+      false,
+      false
+    ],
+    "fields": [
+      "album"
+    ]
+  },
+  "puddlestuff.functions_replaceWithReg": {
+    "arguments": [
+      "",
+      "",
+      false
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_sort_field": {
+    "arguments": [
+      "Ascending",
+      false
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_split_by_sep": {
+    "arguments": [
+      ";"
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_tag_dir": {
+    "arguments": [
+      "%artist% - %album%"
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_move": {
+    "arguments": [
+      ""
+    ],
+    "fields": [
+      "just nothing to do with this"
+    ]
+  },
+  "puddlestuff.functions_texttotag": {
+    "arguments": [
+      "",
+      "",
+      ""
+    ],
+    "fields": [
+      "__selected"
+    ]
+  },
+  "puddlestuff.functions_strip": {
+    "arguments": [],
+    "fields": [
+      "__selected"
+    ]
+  }
+}

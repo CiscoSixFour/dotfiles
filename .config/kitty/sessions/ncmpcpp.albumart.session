@@ -1,0 +1,8 @@
+enabled_layouts fat:bias=50;full_size=1;mirrored=false
+
+launch --title ncmpcpp ncmpcpp --config=/home/cisco/.config/ncmpcpp/albumart.config
+
+launch --title cover zsh /home/cisco/Scripts/kitty/cover.sh
+
+launch --title visualizer zsh /home/cisco/Scripts/kitty/visualizer.sh
+focus

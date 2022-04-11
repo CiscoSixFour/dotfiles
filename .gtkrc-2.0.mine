@@ -1,0 +1,17 @@
+gtk-icon-theme-name = "Flatery-Dark"
+gtk-theme-name = "gruvbox-64"
+gtk-font-name = "LiterationSerif Nerd Font 13"
+gtk-enable-event-sounds=0
+gtk-enable-input-feedback-sounds=0
+
+	## GXMessage Settings ##
+style "gxmsg" {
+    text[NORMAL]   = "#DFBF8E"
+    base[NORMAL]   = "#282828"
+    text[SELECTED] = "#CC241D"
+    base[SELECTED] = "#504945"
+    font_name		= "Mx437 Acer710 CGA-2y"
+#    font_size		= "48"
+}
+widget "*.gxmessage-textview" style  "gxmsg"
+widget "*.gxmessage-entry"    style  "gxmsg"

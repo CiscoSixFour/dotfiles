@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## Fluxbox Startup Script By Cisco64 ##
+
+exec fluxbox -no-slit

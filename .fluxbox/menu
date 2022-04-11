@@ -1,0 +1,67 @@
+[begin] (FluxBox)
+	[submenu] ( Files)
+		[exec] (Joshuto) {kitty -T Joshuto joshuto}
+		[exec] (PCManFM) {pcmanfm}
+		[exec] (Xarchiver) {xarchiver}
+	[end]
+	[submenu] ( Editors)
+		[exec] (CherryTree) {cherrytree}
+		[exec] (Leafpad) {leafpad --tab-width=4}
+		[exec] (Micro) {kitty micro}	
+	[end]
+	[submenu] ( Games)
+		[exec] (Steam) {steam}
+	[end]
+	[submenu] ( Graphics)
+		[exec] (GColor2) {gcolor2}
+		[exec] (GIMP) {gimp}
+		[exec] (Viewnior) {viewnior}
+	[end]
+	[submenu] ( Media)
+		[exec] (AviDemux) {avidemux}
+		[exec] (mpv) {mpv}
+		[exec] (ncmpcpp) {ncmpcpp.albumart.sh}
+		[exec] (Puddletag) {puddletag}
+	[end]
+	[submenu] ( Office)
+		[exec] (OnlyOffice) {onlyoffice}
+		[exec] (Galculator) {galculator}
+	[end]
+	[submenu] ( Shell)
+		[exec] (Kitty) {kitty}
+		[exec] (UXterm) {uxterm}
+		[exec] (Xterm) {xterm}
+	[end]
+	[submenu] (漣 Settings)
+		[exec] (ARandR) {arandr}
+		[exec] (Help) {gxmessage -center -wrap -file ~/.help.txt}
+		[exec] (KeePassXC) {keepassxc}
+		[exec] (LXAppearance) {lxappearance}
+		[exec] (NVIDIA X Server Settings) {nvidia-settings}
+		[exec] (Pulse-Mixer) {pulse-mixer.sh}
+		[exec] (Preferred Applications) {libfm-pref-apps}
+		[exec] (QT5 Settings) {qt5ct}
+		[exec] (Timeshift) {timeshift-launcher}
+	[end]
+	[submenu] (襁 Utilities)
+		[exec] (HTop) {kitty -T HTop htop}
+		[exec] (Info) {kitty -T Info info}
+		[exec] (Top) {kitty -T Top top}
+	[end]
+	[submenu] (爵 Web Browser)
+		[exec] (Brave) {brave}
+	[end]	
+	[separator]
+	[submenu] (Fluxbox)
+		[submenu] (Styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[config] (Configure)
+		[reconfig] (Reconfig)
+		[separator]
+		[restart] (Restart)
+		[exit] (Exit)
+    [end]
+[end]
+
